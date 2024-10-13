@@ -30,7 +30,9 @@ public class Main {
         }
         if (type == 4)
         {
-            System.out.println("coś tu będzie");
+            HeapSort hs = new HeapSort(liczby);
+            System.out.println("Twoje liczby posortowane przez kopcowanie");
+            System.out.println(hs.getSortedArrayList());
         }
         if (type == 5)
         {
