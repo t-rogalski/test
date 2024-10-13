@@ -24,7 +24,9 @@ public class Main {
         }
         if (type == 3)
         {
-            System.out.println("coś tu będzie");
+            MergeSort ms = new MergeSort(liczby);
+            System.out.println("Twoje liczby posortowane przez scalanie");
+            System.out.println(ms.getSortedArrayList());
         }
         if (type == 4)
         {

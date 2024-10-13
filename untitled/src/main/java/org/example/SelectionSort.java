@@ -14,11 +14,7 @@ public class SelectionSort {
 
     private boolean LiczbyHasOneElement()
     {
-        if (length == 1)
-        {
-            return true;
-        }
-        return false;
+        return length <= 1;
     }
 
     private ArrayList<Integer> SortedArrayList()
@@ -62,6 +58,4 @@ public class SelectionSort {
     {
         return SortedArrayList();
     }
-
-
 }
