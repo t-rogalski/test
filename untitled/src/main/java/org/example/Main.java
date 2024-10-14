@@ -36,7 +36,9 @@ public class Main {
         }
         if (type == 5)
         {
-            System.out.println("coś tu będzie");
+            QuickSort qs = new QuickSort(liczby);
+            System.out.println("Twoje liczby posortowane przez sortowanie szybkie");
+            System.out.println(qs.getSortedArrayList());
         }
     }
 }
